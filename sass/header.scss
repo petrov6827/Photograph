@@ -1,3 +1,36 @@
 body {
-    color: red;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background: url(../img/header__girl.png) no-repeat right;
+    background-color: #3e425e;
+    background-blend-mode: screen;
+    min-height: 900px;
+}
+
+.header__content {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.wrapper__logo {
+    display: inline;
+}
+
+.wrapper__menu {
+    display: inline-flex;
+    float: right;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__item a {
+    color: #fff;
+    padding: 10px;
+    margin-left: 20px;
 }
