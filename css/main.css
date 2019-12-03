@@ -1,6 +1,31 @@
+@font-face {
+  font-family: "Muli-light";
+  src: url("../fonts/Muli-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: light; }
+
+@font-face {
+  font-family: "Muli-xlight";
+  src: url("../fonts/Muli-ExtraLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Muli-semibold";
+  src: url("../fonts/Muli-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Trirong";
+  src: url("../fonts/Trirong-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 body {
   width: 1600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Muli-light'; }
 
 header {
   background: url(../img/header__girl.png) no-repeat right;
@@ -9,6 +34,7 @@ header {
   min-height: 900px; }
 
 .header__content {
+  position: relative;
   width: 1170px;
   margin: 0 auto;
   padding-top: 65px; }
@@ -27,4 +53,47 @@ header {
 .menu__item a {
   color: #fff;
   padding: 10px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  text-decoration: none; }
+
+.header__wrapper {
+  margin-bottom: 54px; }
+
+.header__hello {
+  font-family: "Trirong";
+  font-size: 60px;
+  line-height: 72px;
+  color: #fff;
+  margin-bottom: 0; }
+
+.header__aboutme {
+  font-family: 'Muli-xlight';
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 50px; }
+
+.header__works {
+  display: block;
+  width: 220px;
+  font-family: 'Muli-semibold';
+  font-size: 16px;
+  padding: 20px 0;
+  background: #f2c200;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 165px; }
+
+.header__scroll {
+  text-align: center; }
+
+.header__rightplus {
+  position: absolute;
+  right: -215px;
+  bottom: -73px; }
+
+.header__social {
+  position: absolute;
+  right: 100px;
+  top: 125px; }

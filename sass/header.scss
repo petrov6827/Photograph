@@ -1,6 +1,7 @@
 body {
     width: 1600px;
     margin: 0 auto;
+    font-family: 'Muli-light';
 }
 
 header {
@@ -11,6 +12,7 @@ header {
 }
 
 .header__content {
+    position: relative;
     width: 1170px;
     margin: 0 auto;
     padding-top: 65px;
@@ -33,4 +35,55 @@ header {
     color: #fff;
     padding: 10px;
     margin-left: 20px;
+    text-decoration: none;
+}
+
+.header__wrapper {
+    margin-bottom: 54px;
+}
+
+.header__hello {
+    font-family: "Trirong";
+    font-size: 60px;
+    line-height: 72px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.header__aboutme {
+    font-family: 'Muli-xlight';
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.header__works {
+    display: block;
+    width: 220px;
+    font-family: 'Muli-semibold';
+    font-size: 16px;
+    padding: 20px 0;
+    background: #f2c200;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 165px;
+}
+
+.header__scroll {
+    text-align: center;
+}
+
+.header__rightplus {
+    position: absolute;
+    right: -215px;
+    bottom: -73px;
+}
+
+.header__social {
+    position: absolute;
+    right: 100px;
+    top: 125px;
 }
