@@ -4,8 +4,9 @@ body {
   font-family: 'Muli-light'; }
 
 header {
+  position: relative;
   background: url(../img/header__girl.png) no-repeat right;
-  background-color: #3e425e;
+  background-color: #2b2d5c;
   background-blend-mode: screen;
   min-height: 900px; }
 
@@ -73,3 +74,13 @@ header {
   position: absolute;
   right: 100px;
   top: 125px; }
+
+.righteff {
+  position: absolute;
+  bottom: -22px;
+  right: 0; }
+
+.lefteff {
+  position: absolute;
+  bottom: -28px;
+  left: 0; }
