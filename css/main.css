@@ -30,7 +30,7 @@ body {
 header {
   position: relative;
   background: url(../img/header__girl.png) no-repeat right;
-  background-color: #2b2d5c;
+  background-color: #4c4d69;
   background-blend-mode: screen;
   min-height: 900px; }
 
@@ -217,3 +217,30 @@ a.doing__item {
   height: 730px;
   left: -215px;
   bottom: -100px; }
+
+.clients {
+  position: relative;
+  background: url("../img/clients.png");
+  background-color: #4c4d69;
+  background-blend-mode: soft-light;
+  height: 300px;
+  margin-bottom: 100px; }
+
+.clients__content {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto; }
+
+.cl__title {
+  font-family: 'Trirong';
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding-top: 68px;
+  margin-bottom: 15px; }
+
+.cl__logotypes {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }

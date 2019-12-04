@@ -7,7 +7,7 @@ body {
 header {
   position: relative;
   background: url(../img/header__girl.png) no-repeat right;
-  background-color: #2b2d5c;
+  background-color: #4c4d69;
   background-blend-mode: screen;
   min-height: 900px;
 }
