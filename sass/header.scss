@@ -37,6 +37,10 @@ header {
     padding: 10px;
     margin-left: 20px;
     text-decoration: none;
+    &:hover {
+        border-bottom: 1px solid #ffcc00;
+        transition: 0.2s;
+    }
 }
 
 .header__wrapper {
@@ -58,19 +62,25 @@ header {
     margin-bottom: 50px;
 }
 
-
 .header__works {
     display: block;
     width: 220px;
     font-family: 'Muli-semibold';
     font-size: 16px;
     padding: 20px 0;
+    color: #2b2d5c;
     background: #f2c200;
     border: none;
     border-radius: 50px;
     text-decoration: none;
     text-align: center;
     margin-bottom: 165px;
+    &:hover {
+        color: #fff;
+        background: #2b2d5c;
+        border: 2px solid #fff;
+        transition: 0.2s;
+    }
 }
 
 .header__scroll {
