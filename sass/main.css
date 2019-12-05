@@ -268,14 +268,14 @@ a.doing__item:active {
 .clients {
   position: relative;
   background: url("../img/clients.png");
-  background-color: #2b2d5c;
-  background-blend-mode: screen;
+  background-color: #4c4d69;
+  background-blend-mode: soft-light;
   height: 300px;
+  margin-bottom: 100px;
 }
 
 .clients__content {
   position: relative;
-  background: #2b2d5c;
   width: 1170px;
   margin: 0 auto;
 }
@@ -285,6 +285,22 @@ a.doing__item:active {
   font-size: 40px;
   color: #fff;
   text-align: center;
-  margin: 0;
+  padding-top: 68px;
+  margin-bottom: 15px;
+}
+
+.cl__logotypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.port__text {
+  width: 535px;
+  height: 840px;
+  background: url(../img/port.png) no-repeat center;
 }
 /*# sourceMappingURL=main.css.map */
