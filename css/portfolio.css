@@ -1,14 +1,16 @@
 .portfolio {
+  display: -webkit-box;
+  display: flex;
   position: relative; }
 
 .port__text {
   display: inline-block;
-  float: left;
   color: #2b2d5c;
   width: 535px;
   height: 895px;
   margin: 0;
-  background: url(../img/port.png) no-repeat center; }
+  background: url(../img/port.png) no-repeat center;
+  margin-bottom: 105px; }
 
 .port__content {
   padding-top: 205px;
@@ -30,13 +32,29 @@
   text-decoration: none; }
 
 .port__photo {
-  display: inline; }
-  .port__photo img {
-    float: left;
-    margin: 7px; }
+  display: -webkit-inline-box;
+  display: inline-flex; }
+
+.port__photo_left {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  width: 370px; }
+  .port__photo_left img {
+    margin-bottom: 30px; }
+
+.port__photo_right {
+  display: inline-block;
+  width: 705px; }
+  .port__photo_right img {
+    margin-left: 30px;
+    margin-bottom: 30px; }
 
 .port__see_more {
-  display: inline-block;
+  display: block;
+  position: absolute;
   width: 220px;
   font-family: 'Muli-semibold';
   font-size: 16px;
@@ -47,7 +65,8 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  margin: 55px 60px; }
+  bottom: 75px;
+  left: 585px; }
   .port__see_more:hover {
     color: #2b2d5c;
     background: #f2c200;
