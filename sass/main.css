@@ -298,9 +298,116 @@ a.doing__item:active {
           justify-content: space-between;
 }
 
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
 .port__text {
+  display: inline-block;
+  color: #2b2d5c;
   width: 535px;
-  height: 840px;
+  height: 895px;
+  margin: 0;
   background: url(../img/port.png) no-repeat center;
+  margin-bottom: 105px;
+}
+
+.port__content {
+  padding-top: 205px;
+  margin-left: 78px;
+  width: 340px;
+}
+
+.port__content h1 {
+  margin-bottom: 73px;
+}
+
+.port__text_about {
+  font-family: 'Muli-light';
+  color: #2b2d5c;
+  margin-bottom: 35px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.port__text_more {
+  font-family: 'Muli-semibold';
+  color: #2b2d5c;
+  text-decoration: none;
+}
+
+.port__photo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.port__photo_left {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 370px;
+}
+
+.port__photo_left img {
+  margin-bottom: 30px;
+}
+
+.port__photo_right {
+  display: inline-block;
+  width: 705px;
+}
+
+.port__photo_right img {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.port__see_more {
+  display: block;
+  position: absolute;
+  width: 220px;
+  font-family: 'Muli-semibold';
+  font-size: 16px;
+  padding: 20px 0;
+  color: #f2c200;
+  border: 1px solid #f2c200;
+  border-radius: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  bottom: 75px;
+  left: 585px;
+}
+
+.port__see_more:hover {
+  color: #2b2d5c;
+  background: #f2c200;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.blog {
+  min-height: 837px;
+  background: #f7f7fc;
+}
+
+.blog__content {
+  width: 1470px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bl__column {
+  width: 450px;
 }
 /*# sourceMappingURL=main.css.map */
