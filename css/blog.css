@@ -1,4 +1,5 @@
 .blog {
+  position: relative;
   min-height: 837px;
   background: #f7f7fc; }
 
@@ -18,7 +19,8 @@
 
 .bl__text {
   width: 385px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
   .bl__text a {
     text-decoration: none;
     font-family: 'Muli-semibold';
@@ -74,3 +76,11 @@
 .bl__about {
   padding-bottom: 78px;
   color: #2b2d5c; }
+
+.blog__right_plus,
+.blog__left_plus {
+  position: absolute; }
+
+.blog__right_plus {
+  right: -48px;
+  top: 245px; }
