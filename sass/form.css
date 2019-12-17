@@ -1,8 +1,7 @@
 .form {
   position: relative;
   background: url(../img/formbg.png);
-  background-color: #2a1c60;
-  background-blend-mode: soft-light;
+  background-color: #2b2d5c;
   height: 530px;
   border-bottom: 1px solid #55577d;
 }
@@ -98,10 +97,5 @@
   position: absolute;
   bottom: -47px;
   right: 0;
-}
-
-footer {
-  height: 200px;
-  background: #2b2d5c;
 }
 /*# sourceMappingURL=form.css.map */

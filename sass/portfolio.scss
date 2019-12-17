@@ -34,6 +34,10 @@
     font-family: 'Muli-semibold';
     color: #2b2d5c;
     text-decoration: none;
+    &:hover {
+        color: #fff;
+        transition: 0.3s;
+    }
 }
 
 .port__photo {

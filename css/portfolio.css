@@ -30,6 +30,10 @@
   font-family: 'Muli-semibold';
   color: #2b2d5c;
   text-decoration: none; }
+  .port__text_more:hover {
+    color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
 
 .port__photo {
   display: -webkit-inline-box;
