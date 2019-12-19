@@ -517,11 +517,6 @@ a.doing__item {
   top: 52px;
   right: -115px; }
 
-.form__up {
-  position: absolute;
-  bottom: -47px;
-  right: 0; }
-
 footer {
   background: #2b2d5c;
   border-bottom: 1px solid #55577d;
@@ -615,3 +610,17 @@ footer {
   margin: 0; }
   .links__list_item a:hover {
     color: #f2c200; }
+
+.form__up {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 101; }
+
+.sticky {
+  position: fixed;
+  z-index: 101; }
+
+.stop {
+  position: relative;
+  z-index: 101; }

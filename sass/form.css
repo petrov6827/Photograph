@@ -93,9 +93,10 @@
   right: -115px;
 }
 
-.form__up {
-  position: absolute;
-  bottom: -47px;
-  right: 0;
+#form__up {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 101;
 }
 /*# sourceMappingURL=form.css.map */

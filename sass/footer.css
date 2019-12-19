@@ -113,4 +113,21 @@ footer {
 .links__list_item a:hover {
   color: #f2c200;
 }
+
+.form__up {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 101;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 101;
+}
+
+.stop {
+  position: relative;
+  z-index: 101;
+}
 /*# sourceMappingURL=footer.css.map */
