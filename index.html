@@ -88,7 +88,6 @@
             </div>
         </div>
     </div>
-
     <div class="clients">
         <div class="clients__content">
             <p class="cl__title">Happy Clients</p>
@@ -97,7 +96,6 @@
             </div>
         </div>
     </div>
-
     <div class="portfolio">
         <div class="port__text">
             <div class="port__content">
@@ -189,23 +187,20 @@
             <img src="../img/blogplus2.png">
         </div>
     </div>
-    <div class="form">
-        <div class="form__content">
+    <div id="form" class="form">
+        <form action="/" method="GET" class="form__content">
             <p class="form__title">Let's work?</p>
-            <input type="text" placeholder="*Your name">
-            <input type="email" placeholder="*Your email">
-            <textarea id="form__message" placeholder="Your messages"></textarea>
-            <a href="#" class="form__send_btn">Send Message</a>
-
-
+            <input id="name" name="name" type="text" placeholder="*Your name">
+            <input id="email" name="email" type="email" placeholder="*Your email" required>
+            <textarea id="form__message" name="message" placeholder="Your messages"></textarea>
+            <div id="error"></div>
+            <button type="submit" class="form__send_btn">Send Message</button>
             <a href="#header" id="form__up" class="form__up">
                 <img src="../img/formup.png">
             </a>
-
-
             <img class="form__plus1" src="../img/formplus1.png">
             <img class="form__plus2" src="../img/formplus2.png">
-        </div>
+        </form>
     </div>
     <footer>
         <div class="footer__content">
@@ -257,8 +252,8 @@
         </div>
     </footer>
     <script src="./js/script1.js"></script>
-
     <script src="./js/script2.js"></script>
+    <script src="./js/script3.js"></script>
 </body>
 
 </html>
