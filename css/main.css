@@ -499,7 +499,8 @@ a.doing__item {
   margin-bottom: 165px;
   text-transform: uppercase;
   margin: 0 auto;
-  margin-bottom: 74px; }
+  margin-bottom: 74px;
+  outline: none; }
   .form__send_btn:hover {
     color: #fff;
     background: #2b2d5c;
@@ -516,6 +517,16 @@ a.doing__item {
   position: absolute;
   top: 52px;
   right: -115px; }
+
+#error {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-225px);
+  transform: translateX(-225px);
+  bottom: 70px;
+  width: 450px;
+  color: red;
+  margin: 0 auto; }
 
 footer {
   background: #2b2d5c;

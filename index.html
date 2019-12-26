@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1">
     <title>Photographer</title>
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -188,13 +190,13 @@
         </div>
     </div>
     <div id="form" class="form">
-        <form action="/" method="GET" class="form__content">
+        <form action="" method="POST" class="form__content">
             <p class="form__title">Let's work?</p>
             <input id="name" name="name" type="text" placeholder="*Your name">
             <input id="email" name="email" type="email" placeholder="*Your email" required>
-            <textarea id="form__message" name="message" placeholder="Your messages"></textarea>
+            <input id="form__message" name="message" placeholder="Your messages"></input>
             <div id="error"></div>
-            <button type="submit" class="form__send_btn">Send Message</button>
+            <button type="submit" id="form__send_btn" class="form__send_btn">Send Message</button>
             <a href="#header" id="form__up" class="form__up">
                 <img src="../img/formup.png">
             </a>

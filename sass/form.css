@@ -71,6 +71,7 @@
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 74px;
+  outline: none;
 }
 
 .form__send_btn:hover {
@@ -93,10 +94,14 @@
   right: -115px;
 }
 
-#form__up {
-  position: fixed;
-  bottom: 100px;
-  right: 100px;
-  z-index: 101;
+#error {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-225px);
+          transform: translateX(-225px);
+  bottom: 70px;
+  width: 450px;
+  color: red;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=form.css.map */

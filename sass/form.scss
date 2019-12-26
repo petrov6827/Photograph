@@ -10,7 +10,7 @@
     position: relative;
     width: 1170px;
     margin: 0 auto;
-    input{
+    input {
         padding: 17px 25px;
         width: 450px;
         display: block;
@@ -26,8 +26,7 @@
 }
 
 #form__message {
-    height: 40px;
-    padding-top: 30px;
+    height: 60px;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 17px;
@@ -71,6 +70,7 @@
     text-transform: uppercase;
     margin: 0 auto;
     margin-bottom: 74px;
+    outline: none;
     &:hover {
         color: #fff;
         background: #2b2d5c;
@@ -91,3 +91,12 @@
     right: -115px;
 }
 
+#error {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-225px);
+    bottom: 70px;
+    width: 450px;
+    color:red;
+    margin: 0 auto;
+}
