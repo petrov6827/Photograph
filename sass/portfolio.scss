@@ -46,6 +46,7 @@
 
 .port__photo_left {
     display: inline-flex;
+    position: relative;
     flex-direction: column;
     width: 360px;
     img {
@@ -82,4 +83,11 @@
         background: #f2c200;
         transition: 0.2s;
     }
+}
+
+.ya-share2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 420px;
 }

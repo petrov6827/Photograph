@@ -85,6 +85,10 @@ header {
 
 .header__scroll {
     text-align: center;
+    &:hover {
+        transform: translate3d(0, 10px, 0);
+        transition: 0.3s;
+    }
 }
 
 .header__rightplus {
