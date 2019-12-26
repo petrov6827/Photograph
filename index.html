@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../js/ajax.js"></script>
 </head>
 
 <body>
@@ -190,19 +191,24 @@
         </div>
     </div>
     <div id="form" class="form">
-        <form action="" method="POST" class="form__content">
+        <form action="/#form" method="POST" class="form__content">
             <p class="form__title">Let's work?</p>
             <input id="name" name="name" type="text" placeholder="*Your name">
             <input id="email" name="email" type="email" placeholder="*Your email" required>
             <input id="form__message" name="message" placeholder="Your messages"></input>
             <div id="error"></div>
-            <button type="submit" id="form__send_btn" class="form__send_btn">Send Message</button>
+            <button onclick="pop()" type="submit" id="form__send_btn" class="form__send_btn">Send Message</button>
+
             <a href="#header" id="form__up" class="form__up">
                 <img src="../img/formup.png">
             </a>
             <img class="form__plus1" src="../img/formplus1.png">
             <img class="form__plus2" src="../img/formplus2.png">
         </form>
+        <div id="popup">
+            <h1>I got ur message!<h1>
+                    <a onclick="pop()" class="popup__close">Close</a>
+        </div>
     </div>
     <footer>
         <div class="footer__content">
@@ -256,6 +262,7 @@
     <script src="./js/script1.js"></script>
     <script src="./js/script2.js"></script>
     <script src="./js/script3.js"></script>
+    <script src="./js/pop.js"></script>
 </body>
 
 </html>

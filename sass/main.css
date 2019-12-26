@@ -564,8 +564,7 @@ a.doing__item:active {
 }
 
 #form__message {
-  height: 40px;
-  padding-top: 30px;
+  height: 60px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 17px;
@@ -608,6 +607,7 @@ a.doing__item:active {
   text-transform: uppercase;
   margin: 0 auto;
   margin-bottom: 74px;
+  outline: none;
 }
 
 .form__send_btn:hover {
@@ -630,10 +630,32 @@ a.doing__item:active {
   right: -115px;
 }
 
-.form__up {
-  position: fixed;
-  bottom: -47px;
-  right: 0;
+#error {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-225px);
+          transform: translateX(-225px);
+  bottom: 70px;
+  width: 450px;
+  color: red;
+  margin: 0 auto;
+}
+
+#pop {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  background: #f1f1f1;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+  border-radius: 6px;
+  padding: 10px;
+  z-index: 9999;
+  top: 50%;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 footer {
@@ -750,6 +772,13 @@ footer {
 
 .links__list_item a:hover {
   color: #f2c200;
+}
+
+.form__up {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 101;
 }
 
 .sticky {

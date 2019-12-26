@@ -27,8 +27,7 @@
 }
 
 #form__message {
-  height: 40px;
-  padding-top: 30px;
+  height: 60px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 17px;
@@ -103,5 +102,34 @@
   width: 450px;
   color: red;
   margin: 0 auto;
+}
+
+#popup {
+  position: absolute;
+  width: 30%;
+  height: 100px;
+  background: #f1f1f1;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+  border-radius: 6px;
+  padding: 40px;
+  z-index: 9999;
+  top: 70%;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 24px;
+  display: none;
+}
+
+.popup__close {
+  font-size: 20px;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #3498db;
+  border-radius: 5px;
+  margin: 30px;
 }
 /*# sourceMappingURL=form.css.map */

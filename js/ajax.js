@@ -3,13 +3,14 @@ $(function () {
         var $form = $(this);
         $.ajax({
             type: $form.attr('POST'),
-            url: $form.attr('action'),
+            url: $form.attr('action_ajax_form.php'),
             data: $form.serialize()
         }).done(function () {
             console.log('success');
-        }).fail(function () {
-            console.log('fail');
-        });
+        })
+            .fail(function () {
+                console.log('fail');
+            });
         //отмена действия по умолчанию для кнопки submit
         e.preventDefault();
     });
